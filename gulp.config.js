@@ -6,6 +6,15 @@ module.exports = function () {
 
     var config = {
         /**
+         * Optimized files
+         */
+
+        optimized: {
+            lib: 'lib.js',
+            app: 'app.js'
+        },
+
+        /**
          * File paths
          */
 
@@ -35,6 +44,8 @@ module.exports = function () {
         less: client + 'styles/styles.less',
 
         fonts: './bower_components/font-awesome/fonts/**/*.*',
+
+        html: clientApp + '**/*.html',
 
         images: client + 'images/**/*.*',
 
